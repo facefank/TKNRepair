@@ -1,0 +1,114 @@
+.chart-container {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-right: 1%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.chart-container1 {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-right: 1%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.chart-container1 canvas {
+    width: 70% !important;
+    height: auto !important;
+    margin-left: 80px;
+}
+
+.top-departments {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.tableu {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+#chartForm {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+#chartForm label {
+    
+    color: #333;
+    margin-right: 8px;
+}
+
+/* Style select */
+#chartForm select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style button */
+#chartForm button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    /* โค้งมนมากขึ้น */
+    background-color: #303030;
+    color: #fff;
+    font-size: 18px;
+    /* ขนาดตัวอักษรใหญ่ขึ้น */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* เอฟเฟกต์การเปลี่ยนสีและการขยาย */
+    margin-left: 10px;
+}
+
+/* Change button color on hover */
+#chartForm button:hover {
+    background-color: #303030;
+    transform: scale(1.05);
+    /* ขยายปุ่มเล็กน้อยเมื่อ hover */
+}
+
+/* Change button color on focus */
+#chartForm button:focus {
+    outline: 2px solid #303030;
+    /* เพิ่มเส้นขอบเมื่อ focus */
+    outline-offset: 4px;
+}
+
+
+/* Style for hidden input */
+#chartForm input[type="hidden"] {
+    display: none;
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-xl-4,
+.col-lg-4,
+.col-md-4,
+.col-sm-6 {
+    box-sizing: border-box;
+
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.icon-lg {
+    font-size: 36px;
+    color: #17a2b8;
+}
+
+.text-info {
+    color: #17a2b8;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.fluid-container {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.grid-margin {
+    margin: 0 -15px;
+}
+
+.stretch-card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+
+    .col-xl-4,
+    .col-lg-4,
+    .col-md-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-6 {
+        width: 100%;
+    }
+}
+
