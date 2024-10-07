@@ -62,7 +62,7 @@
 		else{ 
 		$result_ = json_decode($result, true); 
 		   echo "status : ".$result_['status']; echo "message : ". $result_['message'];
-		  
+		   header('Location:http://repairit.tkn.co.th/?s=success');
 		//    header('Location:index?s=fail');
 	    } 
 		curl_close( $chOne );   
